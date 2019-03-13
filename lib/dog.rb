@@ -13,7 +13,7 @@ def self.clear_all
 end
 
 def self.all
-@@all.map do |name|
+@@all.each do |name|
   puts self.name
 
 end
