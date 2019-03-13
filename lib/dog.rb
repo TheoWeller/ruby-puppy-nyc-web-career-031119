@@ -15,7 +15,8 @@ end
 def self.all
 @@all.map do |name|
   puts self.name
+
+end
+end
+end
   binding.pry
-end
-end
-end
