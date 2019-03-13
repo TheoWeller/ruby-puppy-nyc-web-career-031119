@@ -19,4 +19,4 @@ def self.all
 end
 end
 end
-  binding.pry
+  #binding.pry
