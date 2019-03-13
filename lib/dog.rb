@@ -12,7 +12,7 @@ def self.clear_all
 end
 
 def self.all
-@@all.each do |name|
+@@all.map do |name|
   puts self.name
 end
 end
